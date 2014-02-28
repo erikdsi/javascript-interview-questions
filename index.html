@@ -1,11 +1,33 @@
+<!doctype html>
 <html>
   <head>
+  	<meta charset="utf-8">
     <title>js questions</title>
   </head>
   <body>
     <div class="content">
       Put elements here
+      <div id="struct-container"></div>
+      <div>
+        <label>
+          <input type="radio" id="asc"> Ascending Frequency
+        </label>
+        <label>
+          <input type="radio" id="desc"> Descending Frequency
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="radio" id="alpha"> Alphabetic order
+        </label>
+        <label>
+          <input type="radio" id="alpharev"> Reverse Alphabetic order
+        </label>
+      </div>
+      <div id="wordfreq-container"></div>
     </div>
-    <script src="./test.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="jquery.xdomain.js"></script>
+    <script src="./test.js"></script>
   </body>
 </html>
