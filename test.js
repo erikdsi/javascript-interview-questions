@@ -190,7 +190,7 @@ $(document).ready(function(){
 
 
   var getBios = function(entries){
-    for( var i = 0; i < entries.length; i++){
+    /*for( var i = 0; i < entries.length; i++){
       $.ajax({
         url: 'https://api.twitter.com/1.1/users/search.json?q='+entries[i],
         type: 'get',
@@ -201,7 +201,7 @@ $(document).ready(function(){
           console.log(data);
         }
       });
-    }
+    }*/
   };
 
   var entries = [];
